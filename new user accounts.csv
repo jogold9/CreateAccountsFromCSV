@@ -1,0 +1,6 @@
+ givenname, surname, displayname,samaccountname, name, department,job title,phone,email
+Roger,Bannister,Roger Bannister,rbannister,rbannister,HR,HR Manager,503-455-7778,rbannister@labdomain.com
+Joan,Samuelson,Joan Samuelson,jsamuelson,jsamuelson,Sales,Senior Account Representative,503-455-7779,jsamuelson@labdomain.com
+Lynn,Jennings,Lynn Jennings,ljennings,ljennings,Engineering,System Engineer,503-455-7780,ljennings@labdomain.com
+Joaquim,Cruz,Joaquim Cruz,jcruz,jcruz,Management,Operations Manager,503-455-7781,jcruz@labdomain.com
+Rudy,Chapa,Rudy Chapa,rchapa,rchapa,Finance,Accountant,503-455-7782,rchapa@labdomain.com
