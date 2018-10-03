@@ -1,4 +1,6 @@
 ﻿#This script automates the creation of Active Directory user accounts from a comma separated value (CSV) file
+ #Josh Gold 
+ #Feel free to use, modify and share this script.
 
 #Use these two lines if you want to force the script to follow Powershell best practices
 Set-StrictMode -Version Latest
