@@ -11,6 +11,8 @@ $ErrorActionPreference = 'Stop'
 
  $password = (Read-Host "Enter the password you want the new accounts to use temporarily" -AsSecureString)
  $accounts_created = 0
+ $group1 = "Staff Group"
+ $group2 = "Sales Group"
 
 Import-CSV "C:\new user accounts.csv" | ForEach-Object {
  $user = $_."samAccountName" + "@LabDomain.com"
@@ -29,8 +31,9 @@ Import-CSV "C:\new user accounts.csv" | ForEach-Object {
   -OfficePhone $_."phone"
   -EmailAddress $_."email"
 
- #Optionally add user to a group
- Add-ADGroupMember "Staff Group" $_."samAccountName";
+ #Optionally add user to distribution groups and/or security groups
+ Add-ADGroupMember "group1" $_."samAccountName";
+ Add-ADGroupMember "group2" $_."samAccountName";
 
  $accounts_created++
 }
